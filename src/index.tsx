@@ -13,7 +13,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-const URL = process.env.API_URL || "http://localhost:3333/graphql";
+const URL = process.env.REACT_APP_API_URL || "http://localhost:3333/graphql";
 
 const client = createClient({
   url: URL,
